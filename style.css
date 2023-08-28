@@ -1,0 +1,287 @@
+*{
+    margin:0;
+    color: inherit;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    counter-reset: section;
+}
+a:hover{
+    color:coral !important;
+}
+.carousel-inner{
+    padding: 4em;
+  }
+.container-fluid{
+    position: absolute;
+    background-color: rgba(65, 79, 107, 0.85);
+    margin-top: 57.5em;
+    padding-top:-1em
+}
+#carousel {
+    display:inline-flex;
+    max-width: 975px;
+    margin-left: 100px;
+  }
+
+.endnav-text{
+    margin-left: 6em;
+    display:inline-flex;
+}
+.End-navbar{
+    background-color: white;
+    padding: 2em;
+}
+.End-navbar p{
+    font-weight: bold;
+}
+.End-Section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url('./assets/Mountain1.png');
+    font-size: 10.8px;
+    font-weight:bolder;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 70%;
+  }
+.footer{
+    background-color: #414f6b;
+    padding: 1em;
+    width:100%;
+    margin-top:50%
+}
+#copyrighticon{
+    margin-left: 10em;
+}
+img[src*="./assets/2ndOption.png"]{
+    margin-left: 27em;
+ }
+ img[src*="./assets/finalfooterlogo.png"]{
+    left: 0;
+    margin-left:20em;
+ }
+img[src*="./assets/mainlogo.jpg"]{
+    border-radius: 50%;
+    height:40px;
+    width: 40px;
+    margin:0.1em 22em;
+}
+img[src*="./assets/secondarylogo.png"]{
+   padding-left: 20em;
+}
+img[src*="./assets/copyright icon.png"]{
+    position: absolute;
+    right: 0;
+    margin: 14px 20em;
+ }
+.LP-Section{
+    background: url('./assets/BackgroundImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 10.8px;
+    font-weight:bolder;
+    color:white;
+    height: 100vh;
+    width:100%;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.LP-Section a{
+    color:white;
+}
+
+.mid-navbar{
+    background-color: white;
+    font-weight:bolder;
+    padding-top: 1.8em;
+    text-align: justify;
+}
+.mid-body{
+    margin: 5em 28em;
+}
+.mid-body p{
+    margin-left: 8em;
+}
+#mid-body-text{
+    font-weight: bold !important;
+}
+.Mid-Section a{
+    color:#454545;
+}
+.Mid-Section{
+    background: url('./assets/SecondaryBGimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 10.8px;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 67%;
+}
+
+navbar.a:visited{
+    color:white;
+}
+navbar.a:active{
+    color:white;
+}
+
+.nav-pills .nav-item.show .nav-link,
+ .nav-pills .nav-link.active{
+    background-color: #D3D3D3!important;
+    color: #414f6b !important;
+    font-size: medium;
+    text-decoration: underline;
+ }
+ .nav-pills .nav-link:not(.active) {
+    color: #D3D3D3 !important;
+    font-size: medium;
+}
+#pills-tab{
+    float:left !important;
+    margin-left: 22em;
+}
+.schedule{
+    margin:5em;
+    width:85%;
+    height:auto;
+}
+.Sub-Menu-Nav{
+    background-color: #414f6b;
+    height:5em !important;
+}
+.Sub-Menu-Nav button{
+    font-size: 24px;
+    height:8%;
+    line-height:2px;
+    margin:-1.1em;
+    padding:1.68em 3em;
+    border-radius:0 !important;
+    float:left!important;
+  }
+
+ul{
+    float: right;
+    padding: 1.6em 24.7em;
+    display: inline-flex;
+    gap: 5em;
+}
+ul li {
+    text-decoration: underline;
+    list-style: none;
+  }
+
+@media only screen and (min-width: 1100px){
+    .accordion, accordion-section{
+        display: none
+    }
+  }
+
+@media only screen and (max-width: 1100px) and (min-height: 1920px){
+   *{
+        font-size: 10px;
+        font-weight: bolder;
+        margin:0
+    }
+    #carousel {
+        height: 20vh;
+        width:auto;
+        margin-top:36em;
+      }
+    .End-Section{
+        background-image: none;
+      }
+    .footer{
+        display: none
+    }
+    img[src*="./assets/mainlogo.jpg"]{
+        height:40px;
+        width: 40px;
+        margin:1em;
+    }
+    img[src*="./assets/secondarylogo.png"]{
+        margin:-20em -18em -23em;
+    }
+    .LP-Section{
+        width:100%;
+        height:50vh;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .main-navigation a{
+        float:right;
+    }
+    .nav-pills .nav-item.show .nav-link,
+    .nav-pills .nav-link.active{
+       display: none
+    }
+    .nav-pills .nav-link:not(.active) {
+       display: none
+   }
+    #secondary-logo{
+        width:20%;
+        height:30vh;
+    }
+}
+ @media only screen and (max-width:500px) and (max-width: 768px){
+    #accordion-section{
+        width: auto;
+        height:100%
+    }
+    a[href*="#history"],
+    a[href*="#team"]{
+       top:0!important;
+       display: inline-flex;
+    }
+    #carousel {
+        height: 20vh;
+        width:auto;
+        margin:21em 8em 5em;
+      }
+      .End-Section{
+        background-image: none;
+      }
+    img[src*="./assets/secondarylogo.png"]{
+        width:60%;
+        height:3vh;
+    }
+    img[src*="./assets/2ndOption.png"]{
+        width:50%;
+        height:20vh;
+        margin: 2em
+    }
+    img[src*="./assets/historylogo.png"]{
+        margin:-15em -22em -26em;
+    }
+    img[src*="./assets/historylogo.png"]{
+        margin:-15em -22em -26em;
+    }
+    .LP-Section{
+        height:50vh;
+        width:100%;
+        background-position: center;
+        overflow: hidden;
+        background-size: 100% 100%;
+    }
+    #mid-body-text{
+        margin:16em -20em -20em;
+    }
+    .Mid-Section a{
+        top:0em;
+        display:inline;
+        margin-left:-1.5em
+    }
+    *{
+        font-size: 7px;
+        font-weight: bolder;
+    }
+ }
