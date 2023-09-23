@@ -193,14 +193,32 @@ ul li {
         margin: 0;
         padding-right: 2rem;
     }
+    .accordion-body{
+        width:50%;
+    }
+    #carousel{
+       display: none;
+    }
+    #carousel-container{
+        padding:0;
+        margin:0;
+        background: none;
+        height: auto;
+    }
+    #mid-body{
+        padding-left: 0px;
+    }
     img[src*="./assets/historylogo.png"]{
-        height:50px;
         width: 60px;
+        margin:0px;
+    }
+    img[src*="./assets/schedule1.png"]{
+        width: 150px;
         margin:0px;
     }
     #mid-body-text{
         color: white;
-        padding-right: 10px;
+        margin: 0;
     }
 }
 
