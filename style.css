@@ -193,6 +193,11 @@ ul li {
         margin: 0;
         padding-right: 2rem;
     }
+    img[src*="./assets/historylogo.png"]{
+        height:50px;
+        width: 60px;
+        margin:0px;
+    }
 }
 
 @media only screen and (max-width: 1100px){
