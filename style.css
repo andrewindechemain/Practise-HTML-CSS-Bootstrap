@@ -186,7 +186,7 @@ ul li {
     }
   }
 @media only screen and  (max-width:320px){
-    .main-navigation{
+    .main-navigation,.mid-navigation{
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
