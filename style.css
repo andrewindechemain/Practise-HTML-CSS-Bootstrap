@@ -185,7 +185,7 @@ ul li {
         display: none
     }
   }
-@media only screen and  (max-width:320px){
+@media only screen and (max-width:768px){
     .main-navigation,.mid-navigation{
         display: flex;
         justify-content: flex-start;
@@ -264,7 +264,7 @@ ul li {
        display: none
    }
     #secondary-logo{
-        width:20%;
+        width:100%;
         height:30vh;
     }
 }
